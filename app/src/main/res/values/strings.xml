@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DQ10流浪人レーダー</string>
+    <string name="config_general_label">設定全般</string>
+    <string name="config_sound_label_on">音声通知を無効にする</string>
+    <string name="config_sound_label_off">音声通知を有効にする</string>
+    <string name="config_vibrate_label_on">振動通知を無効にする</string>
+    <string name="config_vibrate_label_off">振動通知を有効にする</string>
+    <string name="config_notification_config_label">通知の設定</string>
+    <string name="config_notification_config_button">開く</string>
+    <string name="config_alarm_duration_label">音声の再生時間</string>
+    <string name="reset_label">検知履歴のリセット</string>
+    <string name="reset_button_label">リセット</string>
+    <string name="test_label">通知のテスト</string>
+    <string name="test_button_label">テスト通知</string>
+    <string name="config_target_label">ターゲット別設定</string>
+    <string name="stop_sound_button_label">アラームを止める</string>
+    <string name="channel_name">出現通知</string>
+    <string-array name="config_alarm_duration_text_array">
+        <item>30分</item>
+        <item>10分</item>
+        <item>3分</item>
+        <item>1分</item>
+        <item>12秒</item>
+    </string-array>
+</resources>

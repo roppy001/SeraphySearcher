@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/textViewAlarmDuration"
+	        android:layout_width="wrap_content"
+	        android:layout_height="28dp"
+	        android:layout_marginTop="6dp"
+	        android:layout_marginBottom="6dp"
+	        android:textSize="16sp"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/config_alarm_duration_label" />
+
+		<Spinner
+			android:id="@+id/spinnerAlarmDuration"
+			android:layout_width="wrap_content"
+			android:layout_height="28dp"
+			android:layout_alignParentRight="true"
+			android:padding="0dp"
+			android:entries="@array/config_alarm_duration_text_array"
+			android:textSize="10sp" />
+
+</RelativeLayout>
